@@ -84,7 +84,7 @@ SELECT * FROM tbProduto
 
 
 
---A partir daqui s„o os comandos do exercicio
+--A partir daqui s√£o os comandos do exercicio
 
 --Exercicio 1
 
@@ -99,7 +99,7 @@ SET nomeProduto = 'Pendrive 64GB Sandisk' WHERE idProduto = 6
 
 --Exercicio 3
 
-DELETE FROM tbProduto WHERE idProduto NOT IN (SELECT idProduto FROM "tbItensVenda") -- olha o id do produto que n„o est· na tabela de itens de venda e deleta ele
+DELETE FROM tbProduto WHERE idProduto NOT IN (SELECT idProduto FROM "tbItensVenda") -- olha o id do produto que n√£o est√° na tabela de itens de venda e deleta ele
 
 --Exercicio 4
 
@@ -132,7 +132,7 @@ SET horaFechamento = '18:15' WHERE idCaixa = 5
 
 --Exercicio 10
 
-DELETE FROM tbCliente WHERE idCliente = 7  -- exerc. 10 - n„o da pra deletar essa tabela, da erro pois est· em conflito com outra
+DELETE FROM tbCliente WHERE idCliente = 7  -- exerc. 10 - n√£o da pra deletar essa tabela, da erro pois est√° em conflito com outra
 
 --Exercicio 11
 
