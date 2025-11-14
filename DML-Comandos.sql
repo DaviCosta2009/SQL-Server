@@ -8,7 +8,7 @@ create table tbprodutu(
 	valor varchar(40),
 	qtddd int,
 
-	--descric„o
+	--descric√£o
 );
 
 --ALTER DATABASE bdLojaGuaia MODIFY NAME = bdLoja;
